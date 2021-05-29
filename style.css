@@ -1,0 +1,65 @@
+body{
+   background-color: black;
+    margin: 0%;
+ 
+    
+}
+
+body::before{
+    content: "";
+    position: absolute;
+    background-image: url("./sky-5375005.jpg");
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    top: 0%;
+    left: 0%;
+    z-index: -10000;
+    opacity: 0.7;
+}
+nav{
+    background-color: white;
+    width: 70vw;
+    height: 4vmax;
+    margin: 4vmax auto;
+    display: flex;
+    border-radius: 0.2vmax;
+    justify-content: space-evenly;
+    align-items: center;
+}
+nav > a{
+    text-decoration: none;
+    color: black;
+    font-family: "Roboto";
+    height: 4vmax;
+    width: 14vw;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.2vmax;
+    transition: all 0.5s;
+}
+
+#ac{
+    color: crimson;
+}
+
+.highlighter{
+    background-color: crimson;
+    height: 5vmax;
+    width: 12vmax;
+    position: absolute;
+    z-index: -1;
+  transition: all 0.5s;
+}
+
+.arrow{
+    clip-path: polygon(50% 19%, 0 0, 100% 0);
+    background-color: crimson;
+    position: absolute;
+    width: 1.5vmax;
+    height: 2.5vmax;
+    top: 4vmax;
+    transition: all 0.5s;
+}
